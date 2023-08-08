@@ -13,7 +13,7 @@ function App() {
   const peticionGet= async()=>{
     await axios.get(baseUrl)
     .then(response=>{
-      //console.log(response.data);
+      //console.log(response.data)
       setData(response.data);
     })
   }
